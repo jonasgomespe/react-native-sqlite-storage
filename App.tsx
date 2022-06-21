@@ -69,7 +69,7 @@ const App = () => {
   return (
     <View>
       <Button title="Inserir" onPress={inserindoValor} />
-      <Text></Text>
+      <Text />
       <Button title="Ler" onPress={lerValor} />
       {dadosBanco.map(val => {
         return (
